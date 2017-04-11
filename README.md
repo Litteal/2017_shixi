@@ -14,6 +14,9 @@ This pipeline contains germline variants calling as well as somatic variants cal
 * GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)
 * g++
 * python 2.7
+   	* pysam 0.8.4 or newer(0.9.1 used here)
+	*	numpy 
+	*	scipy
 * automake 
 * make
 * cmake 
@@ -30,9 +33,6 @@ This pipeline contains germline variants calling as well as somatic variants cal
 *	libblas-dev
 *	liblapack3 
 *	liblapack-dev
-*	pysam 0.8.4 or newer(0.9.1 used here)
-*	numpy 
-*	scipy
 *	zlib-1.2.11
 *	libX11-dev 
 *	libxpm-dev
