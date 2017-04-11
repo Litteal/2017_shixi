@@ -3,14 +3,15 @@
 A WGS pipeline constructed by multiple tools.Meant to  produce shell scripts for analysis the whole genome sequencing data based on provided parameters.
 WHOLE PIPELINE:raw data -> filter -> align -> correct bam -> call SNPs and indels -> call SVs
 
-__Author__: Songjing ,__E-mail__: songjing@genomics.cn
-__Edit__: 14 Mar,2017
+* __Author__: Songjing <br>
+* __E-mail__: songjing@genomics.cn<br>
+* __Edit__: 14 Mar,2017<br>
 
 ## Overview <br>
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
 
 ## Prerequisites<br>
-	GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)<br>
+	GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)
 	g++
 	python 2.7
 	automake 
@@ -71,5 +72,8 @@ This pipeline contains germline variants calling as well as somatic variants cal
 	Oncotator
 	VEP
 	GISTIC
+## installation<br>
+You can use existed script 'install_HiseqWGS_2017.pl' to install all the environment exclude reference data.<br>
+ * perl <path to install_HiseqWGS_2017.pl>/install_HiseqWGS_2017.pl [-o] <OUT_PATH>
 	
 
