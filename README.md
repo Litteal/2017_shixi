@@ -10,7 +10,7 @@ __Edit__: 14 Mar,2017
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
 
 #Prerequisites
-	GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)\<br>
+	GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)<br>
 	g++
 	python 2.7
 	automake 
