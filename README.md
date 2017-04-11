@@ -10,6 +10,33 @@ WHOLE PIPELINE:raw data -> filter -> align -> correct bam -> call SNPs and indel
 ## Overview <br>
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
 
+## Usage <br>
+#### For single/multiple sample(s):
+	 perl HiseqWGS_2017.pl -c HiseqWGS_2017.conf -f rawData.list -A -V -S
+#### For tumor/normal pair(s) samples:
+	 perl HiseqWGS_2017.pl -c HiseqWGS_2017.conf -f rawData.list -A -z -S
+
+##### options: <br>
+        -c:*    STR     configure file,including the path of tools used.(eg:HiseqWGS_2017.conf)(required)
+        -f:*    STR     sample fastq list(required)
+        -R:     STR     read group header line such as "\@RG\\tID:id\\tSM:samplename\\tLB:lib"[Default: Auto]
+        -m:     STR	memory to use [Default:12 (Gb)]
+        -p:     Boolens first fastq file consists of interleaved paired-end sequences[Default: False]
+        -t:     INT     number of threads to use [default:16]
+        -o:     STR     output dir prefix  [Defalut:'./outdir_\$date']
+        -tmp:   STR     TMP dir prefix     [Default:'./TMP_\$date']
+
+        -A:*    Boolens Call align(align+markdup+sort+index) [Default:False]
+        -V:*    Boolens Call var  (calling SNP,indels)       [Default:False]
+        -S:*    Boolens Call sv   (calling sv,CNV)           [Default:False]
+
+        -trio:  Boolens Necessary if your samples came from a family(eg:child,father and mother)[Defalut: False]
+        -z:     Boolens Necessary if your samples are tumor/normal pairs[Default: False]
+
+        -help|?:        show this usage page
+        -more:          more default information
+
+
 ## Prerequisites<br>
 * GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)
 * g++
