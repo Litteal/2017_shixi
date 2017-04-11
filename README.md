@@ -6,10 +6,10 @@ WHOLE PIPELINE:raw data -> filter -> align -> correct bam -> call SNPs and indel
 __Author__: Songjing ,__E-mail__: songjing@genomics.cn
 __Edit__: 14 Mar,2017
 
-##Overview
+##Overview<br>
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
 
-##Prerequisites
+##Prerequisites<br>
 	GNU gcc =4.7 ~ 5.0 , (gcc 4.8.4 used here)<br>
 	g++
 	python 2.7
