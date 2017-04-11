@@ -1,7 +1,8 @@
-# HiseqWGS_2017
+# HiseqWGS_2017 (Test version)
 
-A WGS pipeline constructed by multiple tools.Meant to  produce shell scripts for analysis the whole genome sequencing data based on provided parameters.
-WHOLE PIPELINE:raw data -> filter -> align -> correct bam -> call SNPs and indels -> call SVs
+A WGS pipeline constructed by multiple tools. Meant to  produce shell scripts for analysis the whole genome sequencing data based on provided parameters.<br>
+
+Whole pipeline : raw data -> filter -> align -> correct bam -> call SNPs and indels -> call SVs -> call SNVs <br>
 
 * __Author__: Songjing <br>
 * __E-mail__: songjing@genomics.cn<br>
@@ -100,7 +101,7 @@ This pipeline contains germline variants calling as well as somatic variants cal
 *	VEP
 *	GISTIC
 ## installation<br>
-You can use existed script 'install_HiseqWGS_2017.pl' to install all the environment exclude reference data.<br>
- * perl < path to install_HiseqWGS_2017.pl> /install_HiseqWGS_2017.pl [-o] < OUT_PATH >
+##### You can use existed script 'install_HiseqWGS_2017.pl' to install all the environment exclude reference data.<br>
+	perl < path to install_HiseqWGS_2017.pl> /install_HiseqWGS_2017.pl [-o] < OUT_PATH >
 	
 
