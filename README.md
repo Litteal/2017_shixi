@@ -106,5 +106,5 @@ This pipeline contains germline variants calling as well as somatic variants cal
 ##### You can use existed script `install_HiseqWGS_2017.pl` to install all the environment exclude reference data.<br>
 	perl < path to install_HiseqWGS_2017.pl> /install_HiseqWGS_2017.pl [-o] < OUT_PATH >
 ## Other Required data 
-1. Please note,the reference version and corresponding truth set we used here was GRCh37(hg19),it probably will to support GRCh38(hg38),and these data you can download from [GATK resource bundle][ftp://ftp.broadinstitute.org/bundle/hg19/](ftp://ftp.broadinstitute.org/bundle/hg19/ "click to in") (need a account of GATK web page to log in). Or archive it from my cloud bucket().
-2. 
+* Please note,the reference version and corresponding truth set we used here was GRCh37(hg19),it probably will to support GRCh38(hg38), and these data you can download from GATK Resource bundle                   			 [ftp://ftp.broadinstitute.org/bundle/hg19/](ftp://ftp.broadinstitute.org/bundle/hg19/ "click to in")(need a account of GATK web page to log in). Or archive it from my cloud bucket().
+	
