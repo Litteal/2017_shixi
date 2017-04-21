@@ -5,7 +5,7 @@ A WGS pipeline constructed by multiple tools. Meant to  produce shell scripts fo
 Whole pipeline : raw data -> filter -> align -> correct bam -> call SNPs and indels -> call SVs -> call SNVs <br>
 
 * __Author__: Songjing <br>
-* __E-mail__: songjing@genomics.cn<br>
+* __E-mail__: kakaluote707@sina.com<br>
 * __Edit__: 14 Mar,2017<br>
 
 ## Overview <br>
