@@ -47,61 +47,35 @@ This pipeline contains germline variants calling as well as somatic variants cal
    	* pysam 0.8.4 or newer(0.9.1 used here)
 	*	numpy 
 	*	scipy
-* automake 
-* make
-* cmake 
-* git 
-*	libncurses5-dev
-*	zlib1g-dev
-*	g++ 
-*	gcc 
-*	gfortran
+* automake make cmake git libncurses5-dev zlib1g-dev g++ gcc gfortran
 *	python2.7-dev 
 *	python-pip 
-*	libblas-doc 
-*	libblas3
-*	libblas-dev
-*	liblapack3 
-*	liblapack-dev
+*	libblas-doc libblas3 libblas-dev
+*	liblapack3 liblapack-dev
 *	zlib-1.2.11
-*	libX11-dev 
-*	libxpm-dev
-*	libxft-dev
-*	libxext-dev 
+*	libX11-dev libxpm-dev libxft-dev libxext-dev 
 *	dpkg-dev 
 *	binutils
-*	libssl-dev 
-*	libpcre3-dev
-*	xlibmesa-glu-dev
-*	libglew1.5-dev 
-*	libftgl-dev
-*	libmysqlclient-dev
-*	libfftw3-dev 
-*	libcfitsio3-dev 
+*	libssl-dev libpcre3-dev xlibmesa-glu-dev libglew1.5-dev libftgl-dev libmysqlclient-dev libfftw3-dev libcfitsio3-dev 
 *	graphviz-dev 
-*	libavahi-compat-libdnssd-dev
-*	libldap2-dev 
+*	libavahi-compat-libdnssd-dev libldap2-dev 
 *	python-dev
-*	libxml2-dev
-*	libkrb5-dev 
-*	libgsl0-dev 
-*	libqt4-dev
+*	libxml2-dev libkrb5-dev libgsl0-dev libqt4-dev
 *	root(v5.34.20)
 *	samtools(1.3.1)
 *	bwa_mem(0.7.12)
 *	java 8
 *	picard-tools(1.54)
 *	Speedseq(v0.1.2)
-*	Conpair
+*	Conpair(master version now)
 *	CREST
-*	muTect
+*	muTect-1.1.5
 *	GATK (3.6)
-*	GASVPro
-*	SOAPnuke(no need if can't get)
+*	SOAPnuke*(no need if can't get)
 *	fastQC
-*	Oncotator
-*	VEP
-*	GISTIC
+*	Oncotator*
+*	VEP*
+*	GISTIC*
 ## installation<br>
 ##### You can use existed script `install_HiseqWGS_2017.pl` to install all the environment exclude reference data.<br>
 	perl < path to install_HiseqWGS_2017.pl> /install_HiseqWGS_2017.pl [-o] < OUT_PATH >
