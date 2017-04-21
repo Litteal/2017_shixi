@@ -22,7 +22,7 @@ This pipeline contains germline variants calling as well as somatic variants cal
 ##### options: <br>
         -c:*    STR     configure file,including the path of tools used.(eg:HiseqWGS_2017.conf)(required)
         -f:*    STR     sample fastq list(required)
-        -R:     STR     read group header line such as "\@RG\\tID:id\\tSM:samplename\\tLB:lib"[Default: Auto]
+        -R:     STR     read group header line such as "\@RG\\tID:id\\tPL:[illumina]\\tPU:$platform_unit\\tSM:samplename\\tLB:lib"[Default: Auto]
         -m:     STR	memory to use [Default:12 (Gb)]
         -p:     Boolens first fastq file consists of interleaved paired-end sequences[Default: False]
         -t:     INT     number of threads to use [default:16]
