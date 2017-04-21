@@ -10,7 +10,7 @@ Whole pipeline : raw data -> filter -> align -> correct bam -> call SNPs and ind
 
 ## Overview <br>
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
-![](https://www.processon.com/view/link/http://processon.com/view/link/58f9d2a0e4b08748aee5d7da)
+![](http://processon.com/chart_image/58f1ca54e4b0cb4162b39489.png)
 
 ## Usage <br>
 
