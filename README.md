@@ -17,7 +17,7 @@ This pipeline contains germline variants calling as well as somatic variants cal
 #### For single/multiple sample(s):
 	 perl HiseqWGS_2017.pl -c HiseqWGS_2017.conf -f rawData.list -A -V -S
 #### For tumor/normal pair(s) samples:
-	 perl HiseqWGS_2017.pl -c HiseqWGS_2017.conf -f rawData.list -A -z -S
+	 perl HiseqWGS_2017.pl -c HiseqWGS_2017.conf -f rawData.list -A -z
 
 ##### options: <br>
         -c:*    STR     configure file,including the path of tools used.(eg:HiseqWGS_2017.conf)(required)
