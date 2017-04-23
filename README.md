@@ -1,4 +1,13 @@
 # HiseqWGS_2017 (Test version)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/Litteal/HiseqWGS_2017.beta/blob/master/LICENSE "OVERVIEW MIT license")
+[![Packagist](https://img.shields.io/badge/Python-2.7-brightgreen.svg)](https://www.python.org/downloads/ "click to downlocad page")
+[![Packagist](https://img.shields.io/badge/GATK-3.6-brightgreen.svg)](https://software.broadinstitute.org/gatk/download/archive "click to download page")
+[![Packagist](https://img.shields.io/badge/GNU-%3C%205.0-brightgreen.svg)]()
+[![Packagist](https://img.shields.io/badge/Java-7%2C8-brightgreen.svg)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[![Packagist](https://img.shields.io/badge/Root-v5.34.20-blue.svg)](https://root.cern.ch/releases "click to download page")
+[![Packagist](https://img.shields.io/badge/pysam-%3E%200.8.4-blue.svg)]()
+[![Packagist](https://img.shields.io/badge/Version-beta-orange.svg)]()
+<br>
 
 A WGS pipeline constructed by multiple tools. Meant to  produce shell scripts for analysis the whole genome sequencing data based on provided parameters.<br>
 
