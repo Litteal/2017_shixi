@@ -10,7 +10,7 @@ Whole pipeline : raw data -> filter -> align -> correct bam -> call SNPs and ind
 
 ## Overview <br>
 This pipeline contains germline variants calling as well as somatic variants calling.You can just use few parameters then it can procedure all shell scripts to run each step.
-![](http://processon.com/chart_image/58f1ca54e4b0cb4162b39489.png)
+![](https://github.com/Litteal/HiseqWGS_2017.beta/blob/master/etc/WGS%20analysis%20pipeline.pdf)
 
 ## Usage <br>
 
