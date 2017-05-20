@@ -1,0 +1,2 @@
+TCGA-B6-A0I6.tumor TCGA-B6-A0I6 TCGA-B6-A0I6.tumor /ifs5/BC_ONLINE_RD/USER/songjing/opt/run/data/NA12878_sliceL05_1.fastq,/ifs5/BC_ONLINE_RD/USER/songjing/opt/run/data/NA12878_sliceL05_2.fastq 100:100 178 20465
+TCGA-B6-A0I6.normal TCGA-B6-A0I6 TCGA-B6-A0I6.normal /ifs5/BC_ONLINE_RD/USER/songjing/opt/run/data/NA12878_sliceL10_1.fastq,/ifs5/BC_ONLINE_RD/USER/songjing/opt/run/data/NA12878_sliceL10_2.fastq 100:100 178 20465
